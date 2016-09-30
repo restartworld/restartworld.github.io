@@ -79,7 +79,7 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#c0a375!important"
+              "color": "#a38f84!important"
             },
             "&.mbr-navbar--stuck .mbr-navbar__section": {
               "background": "#2c2c2c"
@@ -129,6 +129,12 @@
         {
           "_name": "header1",
           "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
+            }
+          },
           "_anchor": "header1-1",
           "_params": {
             "parallax": true,
@@ -150,14 +156,8 @@
             "showButtons": false
           },
           "title": "RESTART WORLD",
-          "text": "A new approach to Games&nbsp;",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">CLICK TO EDIT</a> ",
-          "_styles": {
-            ".mbr-section-title": {
-              "font-family": "'Oswald', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
-            }
-          }
+          "text": "A new approach to games&nbsp;",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">CLICK TO EDIT</a> "
         },
         {
           "_name": "footer1",
@@ -178,14 +178,20 @@
         },
         {
           "_name": "slider",
+          "_styles": {
+            "H2": {
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
+            }
+          },
           "_params": {
             "autoplay": true,
             "paddingTop": 3,
             "paddingBottom": 3,
-            "timeout": 5,
+            "timeout": "7",
             "slides": [
               {
-                "active": true,
+                "active": false,
                 "image": "@PROJECT_PATH@/assets/images/audiencebig-2000x1407-44.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
@@ -218,25 +224,25 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "overlay": true,
-                "contentAlign": "right",
+                "contentAlign": "left",
                 "showTitle": true,
                 "title": "BUSINESS MODEL",
                 "showText": true,
-                "text": "To make money from a game, the way it makes money should be designed in from the offset",
+                "text": "To make money from a game, the way it makes money should be incorporated into the design from the offset",
                 "showButtons": false,
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "active": false,
+                "active": true,
                 "image": "@PROJECT_PATH@/assets/images/sciencebig-2000x1407-78.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "overlay": true,
-                "contentAlign": "right",
+                "contentAlign": "left",
                 "showTitle": true,
                 "title": "GAMES SCIENCE",
                 "showText": true,
-                "text": "We add all these ingredients together to try to make games that are a sucess critically and commercially",
+                "text": "We add all these ingredients together to try to make games that are a success, critically and commercially",
                 "showButtons": false,
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
               }
@@ -246,13 +252,7 @@
             "showBullets": true
           },
           "_anchor": "index-slider-0",
-          "articleLayout": false,
-          "_styles": {
-            "H2": {
-              "font-family": "'Oswald', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
-            }
-          }
+          "articleLayout": false
         },
         {
           "_inherit": "features4",
@@ -322,7 +322,7 @@
           },
           "title2": "Games Development",
           "subtitle2": "One of Bootstrap 4's big points",
-          "caption2": "We make games in Unity and can help bring your project to life",
+          "caption2": "We make games in Unity and can help bring your project to life no matter the size",
           "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media3": {
             "iconFont": {
@@ -338,7 +338,7 @@
           },
           "title3": "Games Design",
           "subtitle3": "Google has a highly exhaustive list of fonts",
-          "caption3": "We design games of all shapes and sizes to fit your needs. &nbsp;",
+          "caption3": "We design all types of games.We are sure we can design a game to fit your needs. &nbsp;",
           "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media4": {
             "iconFont": {
@@ -353,7 +353,7 @@
           },
           "title4": "Games Analysis",
           "subtitle4": "Mobirise gives you the freedom to develop",
-          "caption4": "We do the basics like analyse your ARPU and see how sticky your game is, but we believe going beyond the data is important and providing actionable tasks is key to improveing those KPIs",
+          "caption4": "We do the basics like analyse your ARPU and see how sticky your game is, but we believe going beyond the data is important and providing actionable tasks is key to improving those KPIs",
           "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media5": {
             "iconFont": {
