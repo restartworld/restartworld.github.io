@@ -15,8 +15,8 @@
         "warningColor": "#f3c649",
         "dangerColor": "#f28281",
         "titleFont": "Montserrat",
-        "subtitleFont": "Lora",
-        "textFont": "Raleway",
+        "subtitleFont": "Oswald",
+        "textFont": "Montserrat",
         "isRoundedButtons": false,
         "isAnimatedOnScroll": true,
         "isScrollToTopButton": false
@@ -124,7 +124,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Restart World</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#index-slider-0\">OVERVIEW</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#index-contacts4-0\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#index-slider-0\">OVERVIEW</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#index-contacts2-0\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
           "_name": "header1",
@@ -133,6 +133,10 @@
             ".mbr-section-title": {
               "font-family": "'Oswald', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
+            },
+            ".mbr-section-lead": {
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
             }
           },
           "_anchor": "header1-1",
@@ -142,14 +146,16 @@
             "showArrow": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "bgColor": "#3d8eb9",
-            "bgColorRadio": true,
+            "bgColorRadio": false,
             "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+              "width": 1280,
+              "height": 720,
+              "url": "https://www.youtube.com/embed/5bwmDpmerQo?rel=0&amp;showinfo=0&autoplay=0&loop=0"
             },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#000",
+            "bgVideoRadio": true,
+            "overlay": true,
+            "overlayOpacity": "0.3",
+            "overlayColor": "#28324e",
             "contentAlign": "center",
             "showTitle": true,
             "showText": true,
@@ -182,6 +188,13 @@
             "H2": {
               "font-family": "'Oswald', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700"
+            },
+            "P": {
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
+            },
+            "B": {
+              "font-size": "24px"
             }
           },
           "_params": {
@@ -191,18 +204,18 @@
             "timeout": "7",
             "slides": [
               {
-                "active": false,
-                "image": "@PROJECT_PATH@/assets/images/audiencebig-2000x1407-44.jpg",
+                "active": true,
+                "image": "@PROJECT_PATH@/assets/images/sciencebig-2000x1407-78.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "overlay": true,
                 "contentAlign": "left",
                 "showTitle": true,
-                "title": "GAMES EVERYWHERE",
+                "title": "GAMES SCIENCE",
                 "showText": true,
-                "text": "We help make games that are played everywhere",
-                "showButtons": false,
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+                "text": "<span style=\"font-style: normal;\">Unsure where your game sits in an ever crowded marketplace? Worry about what game to work on next?<br> <br>We can help!</span>",
+                "showButtons": true,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"index.html#index-contacts2-0\" data-toolbar=\"-mbrBtnMove\">GET HELP</a> "
               },
               {
                 "active": false,
@@ -214,9 +227,23 @@
                 "showTitle": true,
                 "title": "ENTERTAINMENT",
                 "showText": true,
-                "text": "We believe entertainment can be made if you follow the right process",
-                "showButtons": false,
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+                "text": "<span style=\"font-style: normal;\">Do the reviews of your game worry you? Are you getting feedback but not actionable feedback? <br><br>We can help!</span>",
+                "showButtons": true,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"index.html#index-contacts2-0\" data-toolbar=\"-mbrBtnMove\">GET HELP</a> "
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/audiencebig-2000x1407-44.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": true,
+                "contentAlign": "left",
+                "showTitle": true,
+                "title": "PLAYERS",
+                "showText": true,
+                "text": "<span style=\"font-style: normal;\">Are players leaving your game quickly? Is your day seven or monthly retention in need of a boost? <br><br>We can help!</span>",
+                "showButtons": true,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"index.html#index-contacts2-0\" data-toolbar=\"-mbrBtnMove\">GET HELP</a> "
               },
               {
                 "active": false,
@@ -226,25 +253,11 @@
                 "overlay": true,
                 "contentAlign": "left",
                 "showTitle": true,
-                "title": "BUSINESS MODEL",
+                "title": "MONEY",
                 "showText": true,
-                "text": "To make money from a game, the way it makes money should be incorporated into the design from the offset",
-                "showButtons": false,
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
-              },
-              {
-                "active": true,
-                "image": "@PROJECT_PATH@/assets/images/sciencebig-2000x1407-78.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "overlay": true,
-                "contentAlign": "left",
-                "showTitle": true,
-                "title": "GAMES SCIENCE",
-                "showText": true,
-                "text": "We add all these ingredients together to make games that are a success, critically and commercially",
-                "showButtons": false,
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+                "text": "<span style=\"font-style: normal;\">Is your game not making enough revenue? Having trouble conversting customers or finding spenders?&nbsp;<br><br>We can help!</span>",
+                "showButtons": true,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"index.html#index-contacts2-0\" data-toolbar=\"-mbrBtnMove\">GET HELP</a> "
               }
             ],
             "fullScreen": true,
@@ -294,6 +307,23 @@
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-features7",
               "linkInNewWindow": false,
+              "name": "tools",
+              "family": "et-line",
+              "active": true,
+              "link": "",
+              "size": 0,
+              "color": "#fff",
+              "newWindow": false
+            }
+          },
+          "title1": "Design",
+          "subtitle1": "Bootstrap 4 has been noted",
+          "caption1": "We focus on the core gameplay and audience. Then see how we can match a business model to suit. We like ugly MVPs but understand detail and polish. We like opinions but prefer design principles and psychology.",
+          "button1": " <a data-app-btn=\"true\" href=\"index.html#index-contacts4-0\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">FIND OUT MORE</a>",
+          "media2": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features7",
+              "linkInNewWindow": false,
               "name": "presentation",
               "family": "et-line",
               "active": true,
@@ -303,26 +333,9 @@
               "newWindow": false
             }
           },
-          "title1": "Games Production",
-          "subtitle1": "Bootstrap 4 has been noted",
-          "caption1": "We like project management. We believe that each team is different and each company is different so our unique approach aims to get the reporting needed with the minimum red tape.",
-          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "media2": {
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features7",
-              "linkInNewWindow": false,
-              "name": "strategy",
-              "family": "et-line",
-              "active": true,
-              "link": "",
-              "size": 0,
-              "color": "#fff",
-              "newWindow": false
-            }
-          },
-          "title2": "Games Development",
+          "title2": "Planning",
           "subtitle2": "One of Bootstrap 4's big points",
-          "caption2": "We make games in Unity and can help bring your project to life no matter the size.",
+          "caption2": "We hate beurocracie and unnecessary process. We understand each team is different. We aim to get the minimum data to make strategic decisions, whilst focusing on development collaboration in a way that suits your team ",
           "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media3": {
             "iconFont": {
@@ -336,10 +349,10 @@
               "color": "#fff"
             }
           },
-          "title3": "Games Design",
+          "title3": "Production",
           "subtitle3": "Google has a highly exhaustive list of fonts",
-          "caption3": "We design all types of games. We are sure we can design a game to fit your needs.",
-          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "caption3": "We can help build your game with either our in-house experts or through our countless outsource partners. We offer project management solutions for projects of all sizes, and can help make your vision a reality.",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
           "media4": {
             "iconFont": {
               "active": true,
@@ -351,9 +364,9 @@
               "family": "et-line"
             }
           },
-          "title4": "Games Analysis",
+          "title4": "Analysis",
           "subtitle4": "Mobirise gives you the freedom to develop",
-          "caption4": "We do the basics like analyse your ARPU and see how sticky your game is, but we believe going beyond the data is important and providing actionable tasks is key to improving those KPIs.",
+          "caption4": "We like one version of the truth and spend more time working out how to improve the number. We use the what-if test to focus on actionable data. We hunt down where users leave and find out how to make them stay!",
           "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media5": {
             "iconFont": {
@@ -387,11 +400,11 @@
           "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
         },
         {
-          "_name": "contacts4",
-          "_anchor": "index-contacts4-0",
+          "_name": "contacts2",
+          "_anchor": "index-contacts2-0",
           "_params": {
-            "paddingTop": "2",
-            "paddingBottom": "2",
+            "paddingTop": 3,
+            "paddingBottom": 3,
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
@@ -399,20 +412,51 @@
             "bgColorRadio": true,
             "overlay": true,
             "overlayOpacity": 0.8,
-            "overlayColor": "#3C3C3C"
+            "overlayColor": "#3C3C3C",
+            "googleMap": {
+              "address": "Restart World\nTechhubs @ Campus\n4-5 Bonhill Street\nLondon EC2A 4BX",
+              "placeId": "ChIJJ5Xo_K4cdkgRwOtwK8qVryI",
+              "state": "ok",
+              "stateDetails": ""
+            }
           },
-          "text1": "<strong>Address</strong><br>Restart World<br>Techhubs @ Campus<br> 4-5 Bonhill Street<br>London EC2A 4BX<br>",
-          "text2": "<p class=\"mbr-contacts__text\"><strong>Links</strong></p><ul class=\"mbr-contacts__list\"><li><a href=\"https://unity3d.com/\">Unity 3D</a><a class=\"text-white\" href=\"https://mobirise.com/\"></a></li><li><a href=\"https://www.techhub.com/\">Techhubs London</a><a href=\"https://www.techhub.com/\"></a><a class=\"text-white\" href=\"https://mobirise.com/mobirise-free-win.zip\"></a></li><li><a href=\"https://mobirise.com/\">Made with Mobirise</a><a class=\"text-white\" href=\"https://mobirise.com/mobirise-free-mac.zip\"></a></li></ul>",
+          "text1": "<strong>Address</strong><br>Restart World<br>Techhubs @ Campus<br>4-5 Bonhill Street<br>London EC2A 4BX<br><br><br>\n<strong>Contacts</strong><br>\nEmail: support@restartworld.com<br>",
+          "text2": "<strong>Links</strong><ul><li><a href=\"https://unity3d.com/\">Unity 3D</a><a class=\"text-white\" href=\"https://mobirise.com/\"></a></li><li><a href=\"https://www.techhub.com/\" class=\"text-white\">Techhubs London</a></li><li><a href=\"https://mobirise.com/\" class=\"text-white\">Made with Mobirise</a></li></ul>",
+          "_styles": {
+            "UL": {
+              "color": "#ffffff"
+            }
+          }
+        },
+        {
+          "_name": "form1",
+          "_anchor": "index-form1-0",
+          "_params": {
+            "labelsColor": "#232323",
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showSubTitle": false
+          },
+          "title": "CONTACT US",
+          "subtitle": "SIT could be the best thing you have done today!",
           "form": {
-            "title": "MESSAGE",
             "action": "gwilymhughes@hotmail.com",
             "alerts": {
-              "success": "Thanks for getting in touch!"
+              "success": "Thanks for filling out form!"
             },
             "fields": {
               "name": {
                 "title": "Name",
-                "visible": false,
+                "visible": true,
                 "customTitle": "Name*"
               },
               "email": {
@@ -431,7 +475,12 @@
               }
             }
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-sm btn-black\">Contact us</a>"
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\">CONTACT US</a>",
+          "_styles": {
+            ".form-control-label": {
+              "color": "#232323"
+            }
+          }
         }
       ]
     }

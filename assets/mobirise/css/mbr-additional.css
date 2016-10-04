@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
-@import url(https://fonts.googleapis.com/css?family=Lora:400,700);
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
+
+
 
 
 
@@ -77,8 +77,17 @@
 #header1-1 .mbr-section-title {
   font-family: 'Oswald', sans-serif;
 }
+#header1-1 .mbr-section-lead {
+  font-family: 'Montserrat', sans-serif;
+}
 #index-slider-0 H2 {
   font-family: 'Oswald', sans-serif;
+}
+#index-slider-0 P {
+  font-family: 'Montserrat', sans-serif;
+}
+#index-slider-0 B {
+  font-size: 24px;
 }
 #index-features7-0 .card-subtitle {
   color: #bcbcbc;
@@ -86,4 +95,10 @@
 #index-features7-0 .iconbox {
   background-color: #a38f84;
   border-color: #a38f84;
+}
+#index-contacts2-0 UL {
+  color: #ffffff;
+}
+#index-form1-0 .form-control-label {
+  color: #232323;
 }
