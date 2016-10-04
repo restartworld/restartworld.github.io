@@ -420,7 +420,7 @@
               "stateDetails": ""
             }
           },
-          "text1": "<strong>Address</strong><br>Restart World<br>Techhubs @ Campus<br>4-5 Bonhill Street<br>London EC2A 4BX<br><br><br>\n<strong>Contacts</strong><br>\nEmail: support@restartworld.com<br>",
+          "text1": "<p><strong>Address</strong><br>Restart World<br>Techhubs @ Campus<br>4-5 Bonhill Street<br>London EC2A 4BX<br><br><br>\n<strong>Contacts</strong><br>\nEmail: <a href=\"mailto:contact@restartworld.com\">contact@restartworld.com</a><br></p>",
           "text2": "<strong>Links</strong><ul><li><a href=\"https://unity3d.com/\">Unity 3D</a><a class=\"text-white\" href=\"https://mobirise.com/\"></a></li><li><a href=\"https://www.techhub.com/\" class=\"text-white\">Techhubs London</a></li><li><a href=\"https://mobirise.com/\" class=\"text-white\">Made with Mobirise</a></li></ul>",
           "_styles": {
             "UL": {
@@ -451,7 +451,7 @@
           "form": {
             "action": "gwilymhughes@hotmail.com",
             "alerts": {
-              "success": "Thanks for filling out form!"
+              "success": "Thanks for getting in touch!"
             },
             "fields": {
               "name": {
