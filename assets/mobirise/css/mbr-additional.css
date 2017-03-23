@@ -102,3 +102,80 @@
 #index-form1-0 .form-control-label {
   color: #232323;
 }
+#MobTennisHelp-header3-0 .mbr-section-title,
+#MobTennisHelp-header3-0 .mbr-section-subtitle {
+  text-align: center;
+}
+#MobTennisHelp-header3-0 SMALL {
+  color: #ffffff;
+}
+#page1-menu-0 .hide-buttons .nav-btn {
+  display: none !important;
+}
+#page1-menu-0 .navbar-caption {
+  color: #ffffff;
+}
+#page1-menu-0 .navbar-toggler {
+  color: #ffffff;
+}
+#page1-menu-0 .link,
+#page1-menu-0 .dropdown-item {
+  color: #ffffff;
+}
+#page1-menu-0 .link {
+  font-size: 0.75rem;
+}
+#page1-menu-0 .dropdown-item,
+#page1-menu-0 .nav-dropdown-sm .link {
+  font-size: 0.812rem;
+}
+#page1-menu-0 .link:hover,
+#page1-menu-0 .dropdown-item:hover,
+#page1-menu-0 .link:focus,
+#page1-menu-0 .dropdown-item:focus {
+  color: #a38f84;
+}
+#page1-menu-0 .link[aria-expanded="true"],
+#page1-menu-0 .dropdown-menu {
+  background: #1f5087;
+}
+#page1-menu-0 .nav-dropdown-sm .link:focus,
+#page1-menu-0 .nav-dropdown-sm .link:hover,
+#page1-menu-0 .nav-dropdown-sm .dropdown-item:focus,
+#page1-menu-0 .nav-dropdown-sm .dropdown-item:hover {
+  background: #2662a4!important;
+}
+#page1-menu-0 .navbar,
+#page1-menu-0 .nav-dropdown-sm,
+#page1-menu-0 .nav-dropdown-sm .link[aria-expanded="true"],
+#page1-menu-0 .nav-dropdown-sm .dropdown-menu {
+  background: #2969b0;
+}
+#page1-menu-0 .bg-color.transparent .link {
+  color: #ffffff;
+  transition: none;
+}
+#page1-menu-0 .bg-color.transparent.opened .link {
+  transition: color 0.2s ease-in-out;
+}
+#page1-menu-0 .bg-color.transparent.opened .link:hover,
+#page1-menu-0 .bg-color.transparent.opened .link:focus {
+  color: #a38f84;
+}
+#page1-menu-0 .link[aria-expanded="true"],
+#page1-menu-0 .dropdown-item[aria-expanded="true"] {
+  color: #a38f84!important;
+}
+#page1-menu-0.mbr-navbar--stuck .mbr-navbar__section {
+  background: #2c2c2c;
+}
+#page1-menu-0 .mbr-navbar__hamburger {
+  color: #ffffff;
+}
+#page1-menu-0 .close-icon::before,
+#page1-menu-0 .close-icon::after {
+  background-color: #ffffff;
+}
+#MobTennisHelp-content1-0 P {
+  color: #232323;
+}
