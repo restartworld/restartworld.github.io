@@ -179,3 +179,70 @@
 #MobTennisHelp-content1-0 P {
   color: #232323;
 }
+#page2-menu-0 .hide-buttons .nav-btn {
+  display: none !important;
+}
+#page2-menu-0 .navbar-caption {
+  color: #ffffff;
+}
+#page2-menu-0 .navbar-toggler {
+  color: #ffffff;
+}
+#page2-menu-0 .link,
+#page2-menu-0 .dropdown-item {
+  color: #ffffff;
+}
+#page2-menu-0 .link {
+  font-size: 0.75rem;
+}
+#page2-menu-0 .dropdown-item,
+#page2-menu-0 .nav-dropdown-sm .link {
+  font-size: 0.812rem;
+}
+#page2-menu-0 .link:hover,
+#page2-menu-0 .dropdown-item:hover,
+#page2-menu-0 .link:focus,
+#page2-menu-0 .dropdown-item:focus {
+  color: #a38f84;
+}
+#page2-menu-0 .link[aria-expanded="true"],
+#page2-menu-0 .dropdown-menu {
+  background: #1f5087;
+}
+#page2-menu-0 .nav-dropdown-sm .link:focus,
+#page2-menu-0 .nav-dropdown-sm .link:hover,
+#page2-menu-0 .nav-dropdown-sm .dropdown-item:focus,
+#page2-menu-0 .nav-dropdown-sm .dropdown-item:hover {
+  background: #2662a4!important;
+}
+#page2-menu-0 .navbar,
+#page2-menu-0 .nav-dropdown-sm,
+#page2-menu-0 .nav-dropdown-sm .link[aria-expanded="true"],
+#page2-menu-0 .nav-dropdown-sm .dropdown-menu {
+  background: #2969b0;
+}
+#page2-menu-0 .bg-color.transparent .link {
+  color: #ffffff;
+  transition: none;
+}
+#page2-menu-0 .bg-color.transparent.opened .link {
+  transition: color 0.2s ease-in-out;
+}
+#page2-menu-0 .bg-color.transparent.opened .link:hover,
+#page2-menu-0 .bg-color.transparent.opened .link:focus {
+  color: #a38f84;
+}
+#page2-menu-0 .link[aria-expanded="true"],
+#page2-menu-0 .dropdown-item[aria-expanded="true"] {
+  color: #a38f84!important;
+}
+#page2-menu-0.mbr-navbar--stuck .mbr-navbar__section {
+  background: #2c2c2c;
+}
+#page2-menu-0 .mbr-navbar__hamburger {
+  color: #ffffff;
+}
+#page2-menu-0 .close-icon::before,
+#page2-menu-0 .close-icon::after {
+  background-color: #ffffff;
+}
