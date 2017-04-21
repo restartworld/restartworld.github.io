@@ -23,7 +23,9 @@
       }
     },
     "publishType": "local",
-    "publishPath": "file:///C:/Users/Gwilym/Documents/RWWebsite/restartworld.github.io"
+    "publishPath": "file:///C:/Users/Gwilym/Documents/RWWebsite/restartworld.github.io",
+    "favicon": "@PROJECT_PATH@/assets/images/rw-small-logo-128x160-39.png",
+    "noImageResize": ""
   },
   "pages": {
     "index.html": {
